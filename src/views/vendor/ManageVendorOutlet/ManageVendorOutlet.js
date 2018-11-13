@@ -20,12 +20,16 @@ import {
   Row,
   Table,
 } from 'reactstrap';
+import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips';
+import { getStyle, hexToRgba } from '@coreui/coreui/dist/js/coreui-utilities';
 
+// import Widget03 from '../../views/Widgets/Widget03'
+//const Widget03 = lazy(() => import('../../views/Widgets/Widget03'));
 const Loading = () => <div>Loading...</div>;
 
 // Main Chart
 
-class Dashboard extends Component {
+class ManageVendorOutlet extends Component {
   constructor(props) {
     super(props);
 
@@ -56,7 +60,7 @@ class Dashboard extends Component {
         <Row>
           <Col>
             <Card>
-              <CardHeader>Ttest</CardHeader>
+              <CardHeader>Manage Vendor Outlet</CardHeader>
               <CardBody>
                 <Row>
                   <Col xs="12" md="6" xl="6">
@@ -77,14 +81,6 @@ class Dashboard extends Component {
                       </Col>
                     </Row>
                     <hr className="mt-0" />
-                    <button
-                      type="button"
-                      onClick={() => {
-                        this.props.history.push('/vendor');
-                      }}
-                    >
-                      Click Me!
-                    </button>
                   </Col>
                 </Row>
               </CardBody>
@@ -96,4 +92,4 @@ class Dashboard extends Component {
   }
 }
 
-export default Dashboard;
+export default ManageVendorOutlet;

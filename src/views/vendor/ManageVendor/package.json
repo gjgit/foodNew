@@ -1,0 +1,6 @@
+{
+  "name": "ManageVendor",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ManageVendor.js"
+}

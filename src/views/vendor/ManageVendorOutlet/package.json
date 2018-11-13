@@ -1,0 +1,6 @@
+{
+  "name": "ManageVendorOutlet",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ManageVendorOutlet.js"
+}

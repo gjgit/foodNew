@@ -29,7 +29,7 @@ const Loading = () => <div>Loading...</div>;
 
 // Main Chart
 
-class Dashboard extends Component {
+class ManageVendor extends Component {
   constructor(props) {
     super(props);
 
@@ -60,7 +60,7 @@ class Dashboard extends Component {
         <Row>
           <Col>
             <Card>
-              <CardHeader>Traffic {' & '} Sales</CardHeader>
+              <CardHeader>ManageVendor</CardHeader>
               <CardBody>
                 <Row>
                   <Col xs="12" md="6" xl="6">
@@ -92,4 +92,4 @@ class Dashboard extends Component {
   }
 }
 
-export default Dashboard;
+export default ManageVendor;
