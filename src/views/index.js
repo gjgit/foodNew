@@ -18,7 +18,7 @@ import {
   Tooltips,
 } from './Base';
 
-import { ButtonDropdowns, ButtonGroups, Buttons, BrandButtons } from './Buttons';
+import { ManageVendorItem, ManageVendorPayment, ManageVendorReview, ManageVendor, ManageVendorOutlet } from './vendor';
 import Charts from './Charts';
 import Dashboard from './Dashboard';
 import { CoreUIIcons, Flags, FontAwesome, SimpleLineIcons } from './Icons';
@@ -65,5 +65,6 @@ export {
   Cards,
   Breadcrumbs,
   Paginations,
+  vendor
 };
 
